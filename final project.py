@@ -1,12 +1,6 @@
 """
-Final Project: Snake Game
-This game is an imitation of the classic Snake game which came with the NOKIA 1100 handsets
-The objective of this game is to eat as many food packs as possible while avoiding the walls and
-the snake's continuously growing body.
+Final Project: Python The Hunter.
 """
-
-# pygame (the library) is a Free and Open Source python programming language
-# library for making multimedia applications like games.
 import pygame
 import time
 import random
@@ -28,7 +22,7 @@ dis_height = 720
 
 # Creating the display and naming the window
 dis = pygame.display.set_mode((dis_width, dis_height))
-pygame.display.set_caption('Snake Game')
+pygame.display.set_caption('Python The Hunter')
 
 # Creating an object to help track time
 clock = pygame.time.Clock()
@@ -177,5 +171,5 @@ def gameLoop():
     quit()
 
 
-# Return to the loop after eating one food to create the next food and eat it
+
 gameLoop()
